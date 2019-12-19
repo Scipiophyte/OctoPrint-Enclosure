@@ -50,7 +50,7 @@ additional_setup_parameters = {}
 plugin_additional_data = []
 
 # Any additional python packages you need to install with your plugin that are not contains in <plugin_package>.*
-plugin_addtional_packages = ["adafruit-python-ads1x15"]
+plugin_addtional_packages = ["https://github.com/adafruit/Adafruit_Python_ADS1x15/archive/master.zip"]
 
 # Any python packages within <plugin_package>.* you do NOT want to install with your plugin
 plugin_ignored_packages = []
