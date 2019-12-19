@@ -33,7 +33,7 @@ plugin_url = "https://github.com/vitormhenrique/OctoPrint-Enclosure"
 plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
-plugin_requires = ["RPi.GPIO>=0.6.5","requests>=2.7","adafruit-python-ads1x15"]
+plugin_requires = ["RPi.GPIO>=0.6.5","requests>=2.7"]
 
 additional_setup_parameters = {}
 
@@ -50,7 +50,7 @@ additional_setup_parameters = {}
 plugin_additional_data = []
 
 # Any additional python packages you need to install with your plugin that are not contains in <plugin_package>.*
-plugin_addtional_packages = []
+plugin_addtional_packages = ["adafruit-python-ads1x15"]
 
 # Any python packages within <plugin_package>.* you do NOT want to install with your plugin
 plugin_ignored_packages = []
